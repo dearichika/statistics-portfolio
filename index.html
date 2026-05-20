@@ -1,65 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Statistics / Math Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Statistics & ElMath Digital Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<!-- NAVBAR -->
-<header>
-  <nav class="navbar">
-    <a href="#intro">Intro</a>
+    <nav>
 
-    <div class="dropdown">
-      <button class="dropbtn">Portfolio ▾</button>
-      <div class="dropdown-content">
-        <a href="#lesson1">Lesson 1</a>
-        <a href="#lesson2">Lesson 2</a>
-        <a href="#lesson3">Lesson 3</a>
-      </div>
-    </div>
+        <h2 class="logo">Statistics Portfolio</h2>
 
-    <a href="#members">Members</a>
-    <a href="#closing">Closing</a>
-  </nav>
-</header>
+        <ul>
 
-<!-- INTRO -->
-<section id="intro" class="section">
-  <h1>Statistics / Math Portfolio</h1>
-  <p>Short intro about your group and what the portfolio is about.</p>
-</section>
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#closing">Closing</a></li>
 
-<!-- LESSONS -->
-<section id="lesson1" class="section">
-  <h2>Lesson 1</h2>
-  <p>Your content here.</p>
-</section>
+        </ul>
 
-<section id="lesson2" class="section">
-  <h2>Lesson 2</h2>
-  <p>Your content here.</p>
-</section>
+    </nav>
 
-<section id="lesson3" class="section">
-  <h2>Lesson 3</h2>
-  <p>Your content here.</p>
-</section>
+    <section id="intro" class="section intro-section">
 
-<!-- MEMBERS -->
-<section id="members" class="section">
-  <h2>Members</h2>
-  <p>List names here.</p>
-</section>
+        <h1>Statistics Digital Portfolio</h1>
 
-<!-- CLOSING -->
-<section id="closing" class="section">
-  <h2>Closing Remarks</h2>
-  <p>Short reflection / conclusion.</p>
-</section>
+        <p>
+            Welcome to our group's Statistics or Elective Mathematics Digital Portfolio! 
+            This space serves as a collaborative archive documenting the various lessons, formulas, and statistical concepts we have explored throughout the quarter. 
+            Feel free to navigate through our cards to see our collective learning journey!
+        </p>
+
+    </section>
+
+    <section id="portfolio" class="section">
+
+        <h1>Portfolio</h1>
+
+        <div class="portfolio-grid">
+
+            <details class="card">
+                <summary>Basic Statistical Concepts</summary>
+                <p><strong>Statistics:</strong> Interprets results into numerical values and denotes a particular measure to quantify data.</p>
+                
+                <h3>2 Kinds of Statistics</h3>
+                <ul>
+                    <li><strong>Descriptive:</strong> Focuses on summarizing and describing data without involving generalizations.</li>
+                    <li><strong>Inferential:</strong> Uses generalizations, predictions, and estimations based on a sample dataset.</li>
+                </ul>
+
+                <h3>Population vs. Sample</h3>
+                <ul>
+                    <li><strong>Population:</strong> The entire group or large group under study (e.g., MSU-CETD students).</li>
+                    <li><strong>Sample:</strong> A smaller subset of the population (e.g., Grade 9 Fisher of MSU-CETD).</li>
+                </ul>
+            </details>
+
+            <details class="card">
+                <summary>Variables & Levels of Measurement</summary>
+                <p><strong>Variable:</strong> A characteristic or attribute that changes across different subjects or items.</p>
+                <ul>
+                    <li><strong>Independent Variable:</strong> The variable that is manipulated or controlled.</li>
+                    <li><strong>Dependent Variable:</strong> The variable being tested and measured.</li>
+                </ul>
+
+                <h3>Data Types</h3>
+                <ul>
+                    <li><strong>Qualitative:</strong> Non-numerical values or categorical measures (e.g., labels, traits).</li>
+                    <li><strong>Quantitative:</strong> Numerical values representing how much or how many.
+                        <ul>
+                            <li><em>Discrete:</em> Countable and finite values.</li>
+                            <li><em>Continuous:</em> Infinite values obtained through continuous measurements.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h3>Levels of Measurement</h3>
+                <ul>
+                    <li><strong>Nominal:</strong> Level used for identifying or classifying objects (e.g., gender).</li>
+                    <li><strong>Ordinal:</strong> Levels involving rankings or ordered sequences (e.g., top students, teacher rankings).</li>
+                    <li><strong>Interval:</strong> Numerical scale where the difference between measures is meaningful, but lacks a true zero.</li>
+                    <li><strong>Ratio:</strong> Level containing a true zero, used to measure height, area, and volume.</li>
+                </ul>
+            </details>
+
+            <details class="card">
+                <summary>Measures of Central Tendency</summary>
+                <p>These measures determine the central point or typical value within a given data sequence.</p>
+                <ul>
+                    <li><strong>Mean (Average):</strong> Calculated by taking the sum of all measurements divided by the total number of items (n). Symbolized by x̄.</li>
+                    <li><strong>Median (Middle):</strong> The exact middle position of a sorted set of measurements.</li>
+                    <li><strong>Mode:</strong> The value or category that occurs most frequently.
+                        <ul>
+                            <li><em>Unimodal:</em> Exactly 1 mode is present.</li>
+                            <li><em>Multimodal:</em> More than 1 mode is present.</li>
+                            <li><em>No Mode:</em> No numbers are repeated in the sequence.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </details>
+
+            <details class="card">
+                <summary>Grouped Data & Mean</summary>
+                <p>When working with grouped data tables, the formula for calculating the mean is:</p>
+                <p><strong>Formula: μ = Σfx / N</strong></p>
+
+                <h3>Sample Problem: Weight of 40 Athletes in 9-Fisher</h3>
+                <table>
+                    <tr>
+                        <th>Weight (pounds)</th>
+                        <th># of Athletes (f)</th>
+                        <th>Midpoint (x)</th>
+                        <th>fx</th>
+                    </tr>
+                    <tr><td>80 - 85</td><td>1</td><td>82.5</td><td>82.5</td></tr>
+                    <tr><td>86 - 91</td><td>7</td><td>88.5</td><td>619.5</td></tr>
+                    <tr><td>92 - 97</td><td>10</td><td>94.5</td><td>945</td></tr>
+                    <tr><td>98 - 103</td><td>11</td><td>100.5</td><td>1105.5</td></tr>
+                    <tr><td>104 - 109</td><td>5</td><td>106.5</td><td>532.5</td></tr>
+                    <tr><td>110 - 115</td><td>4</td><td>112.5</td><td>450</td></tr>
+                    <tr><td>116 - 121</td><td>2</td><td>118.5</td><td>237</td></tr>
+                </table>
+                <p><strong>Sum of Frequency (N):</strong> 40</p>
+                <p><strong>Σfx:</strong> 3972</p>
+                <p><strong>Calculation:</strong> μ = 3972 / 40 = <strong>99.35</strong></p>
+            </details>
+
+            <details class="card">
+                <summary>Quartiles, Deciles, & Percentiles</summary>
+                <p>Quantiles split a sorted distribution into equal fractional divisions.</p>
+                
+                <h3>1. Quartiles (Four Equal Parts)</h3>
+                <p>Formula for position: <strong>iQ_k = (k/4)(n + 1)</strong></p>
+                <p><em>Example Sequence:</em> 24, 31, 33, 37, 37, 39, 40, 45, 46, 46, 48, 49, 52, 55, 60 (n = 15)</p>
+                <ul>
+                    <li>Position of Q1 = (1/4)(16) = 4th position &rarr; <strong>Q1 = 37</strong></li>
+                    <li>Position of Q2 = (2/4)(16) = 8th position &rarr; <strong>Q2 = 45</strong></li>
+                    <li>Position of Q3 = (3/4)(16) = 12th position &rarr; <strong>Q3 = 49</strong></li>
+                </ul>
+
+                <h3>2. Deciles (Ten Equal Parts)</h3>
+                <p>Formula for position: <strong>iD_k = (k/10)(n + 1)</strong></p>
+                <p>Example for D1 position: (1/10)(16) = 1.6 position (Interpolation needed: 24 + 0.6 * (31 - 24) = <strong>28.2</strong>)</p>
+
+                <h3>3. Percentiles (One Hundred Equal Parts)</h3>
+                <p>Formula for position: <strong>iP_k = (k/100)(n + 1)</strong> or calculated via sample indices.</p>
+            </details>
+
+            <details class="card">
+                <summary>Median & Quantiles for Grouped Data</summary>
+                <p>To determine locations of partition values within frequency distribution tables, specialized interpolation formulas are applied.</p>
+                
+                <h3>Grouped Median Formula</h3>
+                <p><strong>M_m = L_m + [((N/2) - F_m) / f_m] * c</strong></p>
+                <ul>
+                    <li><em>L_m:</em> Lower boundary of the median class</li>
+                    <li><em>N:</em> Total cumulative frequency</li>
+                    <li><em>F_m:</em> Cumulative frequency below the median class</li>
+                    <li><em>f_m:</em> Frequency of the median class</li>
+                    <li><em>c:</em> Size of the class interval</li>
+                </ul>
+
+                <h3>Grouped Quartile Formula</h3>
+                <p><strong>Q_k = LB + [((kN/4) - CF_b) / f_Qk] * i</strong></p>
+            </details>
+
+            <details class="card">
+                <summary>Variance & Standard Deviation</summary>
+                <p>Measures how spread out data values are from the calculated center mean.</p>
+                
+                <h3>Population Equations</h3>
+                <ul>
+                    <li>Variance (&sigma;&sup2;) = &Sigma;f(x - &mu;)&sup2; / N</li>
+                    <li>Standard Deviation (&sigma;) = &radic;[Variance]</li>
+                </ul>
+
+                <h3>Sample Equations</h3>
+                <ul>
+                    <li>Sample Variance (s&sup2;) = &Sigma;f(x - &mu;)&sup2; / (N - 1)</li>
+                    <li>Sample Standard Deviation (s) = &radic;[Sample Variance]</li>
+                </ul>
+
+                <p><strong>Steps to Solve:</strong> Find Midpoint (x) &rarr; Calculate Mean (&mu;) &rarr; Find Deviation (x - &mu;) &rarr; Square it (x - &mu;)&sup2; &rarr; Multiply by frequency f(x - &mu;)&sup2; &rarr; Sum items and divide.</p>
+            </details>
+
+            <details class="card">
+                <summary>Dispersion Coefficients & Skewness</summary>
+                <h3>Quartile Coefficient of Dispersion</h3>
+                <p>Formula: <strong>V_q = [(Q3 - Q1) / (Q3 + Q1)] * 100%</strong></p>
+
+                <h3>Coefficient of Dispersion</h3>
+                <p>Formula: <strong>V = (&sigma; / &mu;) * 100%</strong></p>
+
+                <h3>Skewness (Distribution Irregularity)</h3>
+                <p>Formula: <strong>S_k = (&mu; - mo) / &sigma;</strong></p>
+                <ul>
+                    <li><strong>Symmetrical:</strong> Distribution is perfectly centered (&mu; = median = mode).</li>
+                    <li><strong>Right-Skewed (Positive):</strong> Distribution tails to the right side (&mu; &gt; median &gt; mode).</li>
+                    <li><strong>Left-Skewed (Negative):</strong> Distribution tails to the left side (&mu; &lt; median &lt; mode).</li>
+                </ul>
+            </details>
+
+            <details class="card">
+                <summary>Pearson's R & T-Test Foundations</summary>
+                <p>Measures the linear relationship strength and directional path between two variable sets (x & y).</p>
+                <ul>
+                    <li><strong>Positive Correlation (+):</strong> As variable x increases, variable y simultaneously increases.</li>
+                    <li><strong>Negative Correlation (-):</strong> As variable x increases, variable y decreases.</li>
+                    <li><strong>Range Limits:</strong> Standardized score limits remain strictly bounded between -1.00 and +1.00.</li>
+                </ul>
+
+                <h3>T-Test Analysis</h3>
+                <p>A statistical testing method utilized to verify if the computed numeric differences are statistically valid or simply due to random variation.</p>
+                <ul>
+                    <li><strong>Null Hypothesis (H_0):</strong> Standard benchmark hypothesis that agrees directly with the default baseline claim.</li>
+                    <li><strong>Alternative Hypothesis (H_1):</strong> Direct structural contradiction to the default baseline claim.</li>
+                </ul>
+            </details>
+
+        </div>
+
+    </section>
+
+    <section id="closing" class="section">
+
+        <h1>Closing</h1>
+
+        <p>
+            Thank you for checking out our math and data archive! We hope this portfolio showcases our academic progress clearly.
+        </p>
+
+        <h3 class="member-title">Group Members</h3>
+
+        <div class="members-container">
+
+            <div class="member-card">
+                Chezra Yuna Jamora
+            </div>
+
+            <div class="member-card">
+                Manisha Yenoh Pain B. Peñas
+            </div>
+
+            <div class="member-card">
+                Sebastian Louis Madriaga
+            </div>
+
+            <div class="member-card">
+                Mark Eduard A. Mejares
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
